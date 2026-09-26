@@ -647,7 +647,7 @@ Incluindo fronteiras como:
 ## 📚 Documentação interna
 
 | Documento | Responsabilidade |
-|||
+|---|---|
 | [`SKILL.md`](standalone/amazon-lightsail-fullstack/SKILL.md) | Comportamento principal da skill |
 | [`activation-policy.md`](standalone/amazon-lightsail-fullstack/references/activation-policy.md) | Regras de ativação |
 | [`behavioral-pipeline.md`](standalone/amazon-lightsail-fullstack/references/behavioral-pipeline.md) | Estados CTO → Auditoria |
@@ -683,6 +683,7 @@ Distribuído sob a licença **MIT**.
 Veja [`LICENSE`](LICENSE).
 
 
+---
 
 <div align="center">
 
