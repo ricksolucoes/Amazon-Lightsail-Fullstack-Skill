@@ -1,0 +1,114 @@
+[
+  {
+    "id": "activate-lightsail-provisioning",
+    "prompt": "Quero montar um servidor no Amazon Lightsail para publicar meu Next.js e NestJS com PostgreSQL.",
+    "expected_activation": true,
+    "expected_state": "CTO",
+    "reason": "Lightsail explícito e provisionamento."
+  },
+  {
+    "id": "activate-lightsail-502",
+    "prompt": "Meu NestJS no Lightsail está retornando 502 no Nginx.",
+    "expected_activation": true,
+    "expected_state": "SysAdmin/DevOps",
+    "reason": "Lightsail explícito e troubleshooting."
+  },
+  {
+    "id": "activate-ubuntu-next",
+    "prompt": "Preciso publicar meu Next.js 16 em um Ubuntu Server usando Nginx e systemd.",
+    "expected_activation": true,
+    "expected_state": "Arquiteto de Soluções",
+    "reason": "Ubuntu + deploy + Next.js."
+  },
+  {
+    "id": "activate-ubuntu-nest",
+    "prompt": "Como configurar meu NestJS 12 como serviço systemd no Ubuntu Server de produção?",
+    "expected_activation": true,
+    "expected_state": "SysAdmin/DevOps",
+    "reason": "Ubuntu + operação + NestJS."
+  },
+  {
+    "id": "activate-ubuntu-postgres",
+    "prompt": "Preciso instalar PostgreSQL 18 no Ubuntu Server para a aplicação Next.js/NestJS.",
+    "expected_activation": true,
+    "expected_state": "Arquiteto de Soluções",
+    "reason": "Ubuntu + banco + stack aprovada."
+  },
+  {
+    "id": "activate-ubuntu-prisma-prod",
+    "prompt": "Preciso aplicar Prisma migrations em produção no Ubuntu Server da minha API NestJS.",
+    "expected_activation": true,
+    "expected_state": "SysAdmin/DevOps",
+    "reason": "Ubuntu + produção + Prisma/NestJS."
+  },
+  {
+    "id": "noactivate-lambda",
+    "prompt": "Como criar uma função Lambda em Python?",
+    "expected_activation": false,
+    "expected_state": null,
+    "reason": "AWS sem Lightsail."
+  },
+  {
+    "id": "noactivate-react",
+    "prompt": "Como criar um componente React com shadcn/ui?",
+    "expected_activation": false,
+    "expected_state": null,
+    "reason": "Desenvolvimento isolado."
+  },
+  {
+    "id": "noactivate-prisma-local",
+    "prompt": "Como criar uma migration com Prisma no meu projeto local?",
+    "expected_activation": false,
+    "expected_state": null,
+    "reason": "Prisma local sem deploy."
+  },
+  {
+    "id": "noactivate-postgres-notebook",
+    "prompt": "Como instalar PostgreSQL no meu notebook?",
+    "expected_activation": false,
+    "expected_state": null,
+    "reason": "PostgreSQL local."
+  },
+  {
+    "id": "noactivate-github-actions",
+    "prompt": "Como configurar GitHub Actions para rodar testes?",
+    "expected_activation": false,
+    "expected_state": null,
+    "reason": "GitHub isolado."
+  },
+  {
+    "id": "noactivate-ubuntu-samba",
+    "prompt": "Como instalar e configurar Samba no Ubuntu Server?",
+    "expected_activation": false,
+    "expected_state": null,
+    "reason": "Ubuntu genérico sem stack aprovada."
+  },
+  {
+    "id": "noactivate-nginx-python",
+    "prompt": "Como configurar Nginx no Ubuntu Server para uma aplicação Python Flask?",
+    "expected_activation": false,
+    "expected_state": null,
+    "reason": "Outra stack."
+  },
+  {
+    "id": "noactivate-systemd-django",
+    "prompt": "Como criar um serviço systemd para Django no Ubuntu?",
+    "expected_activation": false,
+    "expected_state": null,
+    "reason": "Outra stack."
+  },
+  {
+    "id": "noactivate-ufw-generic",
+    "prompt": "Como liberar a porta 8080 no UFW do Ubuntu Server?",
+    "expected_activation": false,
+    "expected_state": null,
+    "reason": "Firewall genérico."
+  },
+  {
+    "id": "noactivate-postgres-java",
+    "prompt": "Como configurar PostgreSQL 18 no Ubuntu Server para uma aplicação Java?",
+    "expected_activation": false,
+    "expected_state": null,
+    "reason": "Outra stack."
+  }
+]

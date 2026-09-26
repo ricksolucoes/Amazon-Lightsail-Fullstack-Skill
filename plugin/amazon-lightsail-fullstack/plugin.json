@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "amazon-lightsail-fullstack",
+  "version": "6.0.0",
+  "description": "Especialista em Amazon Lightsail e Ubuntu Server para infraestrutura e deploy nativo da stack Next.js, NestJS, PostgreSQL e Prisma, com escopo de ativação estrito."
+}

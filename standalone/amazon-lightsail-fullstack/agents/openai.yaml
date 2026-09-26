@@ -1,0 +1,7 @@
+interface:
+  display_name: "Amazon Lightsail Full Stack"
+  short_description: "Especialista em Lightsail, Ubuntu e deploy nativo da stack Next/Nest/PostgreSQL."
+  default_prompt: "Analise e configure meu ambiente Amazon Lightsail para esta stack sem Docker, seguindo etapas verificáveis e sem alterar tecnologias aprovadas."
+
+policy:
+  allow_implicit_invocation: true
