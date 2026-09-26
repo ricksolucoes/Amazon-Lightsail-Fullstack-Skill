@@ -6,7 +6,7 @@ description: >-
   Não use para Ubuntu/Nginx/UFW/systemd genéricos, outras stacks, desenvolvimento isolado, dúvidas gerais de React, Next.js, NestJS, Prisma, PostgreSQL, GitHub ou programação sem contexto de infraestrutura/deploy/operação.
 compatibility: Requer host compatível com Agent Skills. Scripts auxiliares foram projetados para Ubuntu Server. Ações AWS dependem das permissões e credenciais disponíveis no ambiente do usuário.
 metadata:
-  version: "6.0.0"
+  version: "1.0.0"
   domain: "aws-lightsail-fullstack"
 ---
 
